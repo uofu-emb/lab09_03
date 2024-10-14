@@ -14,4 +14,8 @@ Certainly! Here’s a table format for the invariants of the safety warning syst
 | Exclusive States             | The barrier and alarm states must not conflict; the alarm cannot be off while the barrier is down, and vice versa.                                   |
 | State Coherency              | The system must not transition to an unsafe state, ensuring safe sequences are followed during state changes.                                        |
 
-Feel free to modify the descriptions or format as needed for your README!
+
+
+# Varying invariants
+
+We could have a scenario where a south bound train. While the system is in the arms down state we could have a northbound train. This would result in the arms being brought up before the northbound train leaves the crossing. 
