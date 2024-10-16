@@ -1,4 +1,5 @@
 # lab09_03
+This is a Finite State Machine Verification lab written by Alex Cromar, Andrew Piskadlo.
 Here we have the original FSM for the railroad.
 ![alt text](<Original FSM Train.jpg>)
 
