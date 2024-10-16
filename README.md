@@ -56,3 +56,4 @@ We could have a scenario where a south bound train. While the system is in the a
 
 ![alt text](FinalFSM.png)
 
+This solution is very similar to our original solution. The main difference is that our solution made the assumption that trains would travel at the same speed. Our orignal solution would ignore the first train if a second train arrived because we assumed the second train would always be the last train to exit the crossing. The new solution has an extra state and can accommodate different speeds resulting in a better safer system.
