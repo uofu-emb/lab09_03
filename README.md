@@ -5,8 +5,8 @@ Here we have the original FSM for the railroad.
 # Invariants
 Certainly! Here’s a table format for the invariants of the safety warning system FSM suitable for a README:
 
-| **Invariant**                | **Description**                                                                                                                                       |
-|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Invariant**                | **Description**| **Number**                                                                                                                                       |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------||
 | Crossing Safety              | The barrier must always be lowered when a train is approaching or present. It cannot be raised while a train is detected by either proximity sensor.  |
 | Alarm State                  | The alarm is either on (sounding) or off (not sounding). It must be on when a train is approaching and continue until 10 seconds after the train departs. |
 | Timing Consistency           | The timer starts when the alarm is activated and ensures the barrier lowers only after the alarm has been on for 10 seconds.                           |
