@@ -1,0 +1,29 @@
+digraph G {
+    0 [label="State 0", color=red];
+    4 [label="State 4", color=red];
+    5 [label="State 5", color=red];
+    6 [label="State 6", color=red];
+    7 [label="State 7", color=red];
+    13 [label="State 13", color=red];
+    14 [label="State 14", color=red];
+    15 [label="State 15", color=red];
+
+0 -> 6 [label="N_A"];
+0 -> 5 [label="S_A"];
+4 -> 6 [label="N_A"];
+4 -> 5 [label="S_A"];
+4 -> 0 [label="elapsed"];
+5 -> 7 [label="N_A"];
+5 -> 13 [label="elapsed"];
+6 -> 14 [label="elapsed"];
+7 -> 15 [label="elapsed"];
+13 -> 15 [label="N_A"];
+13 -> 4 [label="S_D"];
+14 -> 15 [label="S_A"];
+14 -> 4 [label="N_D"];
+15 -> 13 [label="N_D"];
+15 -> 14 [label="S_D"];
+
+
+
+}
