@@ -51,3 +51,8 @@ We could have a scenario where a south bound train. While the system is in the a
 | 19     | The events for a train (northbound_approach and northbound_depart or southbound_approach and southbound_depart) must occur in the correct order.    |
 | 20     | The barrier and alarm states must not conflict; the alarm cannot be off while the barrier is down.                                   |
 | 21     | The system must not transition to an unsafe state, ensuring safe sequences are followed during state changes.                                        |
+
+# Final FSM Module
+
+![alt text](FinalFSM.png)
+
