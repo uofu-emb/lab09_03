@@ -4,7 +4,6 @@ Here we have the original FSM for the railroad.
 ![alt text](<Original FSM Train.jpg>)
 
 # Invariants
-Certainly! Here’s a table format for the invariants of the safety warning system FSM suitable for a README:
 
 Here's the updated table with a number column added:
 
